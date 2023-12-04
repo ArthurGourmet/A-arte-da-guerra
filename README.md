@@ -11,4 +11,4 @@ A leitura de 'A Arte da Guerra' tem sido uma fonte valiosa de insights para a mi
 -  Utilizei CSS reset para zerar todas as configurações padrão dos navegadores
 -  adotei @keyframes para criar animações
 
-Qualquer crítica é bem-vinda."
+Qualquer crítica é bem-vinda.
