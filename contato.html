@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sun tzu</title>
+    <link rel="stylesheet" href="style/rest.css">
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="fonts/style.css">
+</head>
+<body>
+    <div class="color-black header">
+    <header class="hero wapper-center  row">
+        <a href="index.html">
+        <div class="logo-hero sm-1-4">
+            <img src="imagens/logo.png" alt="logo">
+        </div>
+        </a>
+        <nav class="main-nav sm-4-12">
+            <input class="check" type="checkbox" name="menu" id="menu">
+            <label for="menu">
+                <div class="menu">
+                    <div class="line one"></div>
+                    <div class="line two"></div>
+                    <div class="line tree"></div>
+                    </div>
+            </label>
+            <ul class="main-nav-ul">
+                <li class="main-nav-itens"><a href="index.html" onclick="desmarcarCheckbox()">inicio</a></li>
+                <li class="main-nav-itens"><a href="index.html#sobre" onclick="desmarcarCheckbox()">sobre o livro</a></li>
+                <li class="main-nav-itens"><a href="index.html#para" onclick="desmarcarCheckbox()">pra quem?</a></li>
+                <li class="main-nav-itens" ><a href="index.html#garantia" onclick="desmarcarCheckbox()">garantia</a></li>
+                <li class="main-nav-itens"><a href="contato.html" onclick="desmarcarCheckbox()">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    </div>
+    <div class="color-black">
+    <main class="contt wapper-center">
+        <h1 class="main-text-title">Quer entrar em contato?</h1>
+        <p class="text-contato">Sou  <span>Gourmet</span> e ainda estou aprendendo sobre como ser um bom desenvolvedor. No entanto, caso deseje ajuda ou queira fornecer algumas críticas construtivas, aqui estão meus contatos.</p>
+        <div class="row cntt-pai">
+        
+            <div class="cntt-itens email sm-1-12 md-6 lg-3 ">
+                <span class="icon-envelop"></span>
+                <p>arthucarneiro098@gmail.com</p>
+            </div>
+    
+        <a href="https://www.linkedin.com/in/gourmet-i-a9836220a/" class="sm-1-12 md-6 lg-3">
+            <div class="cntt-itens linkedin">
+                <span class="icon-linkedin"></span>
+                <p>Gourmet I</p>
+            </div>
+        </a>
+        <a href="https://github.com/ArthurGourmet" class="sm-1-12 md-6 lg-3">
+            <div class="cntt-itens github">
+                <span class="icon-github"></span>
+                <p>ArthurGourmet</p>
+            </div>
+        </a>
+        <a href="https://wa.me/qr/TNSUGIJMCRVTE1" class="sm-1-12 md-6 lg-3">
+            <div class="cntt-itens phone">
+                <span class="icon-whatsapp"></span>
+                <p>+55 63 9966-4912</p>
+            </div>
+        </a>
+        </div>
+    </main>
+    </div>
+
+    <div class=" color-blackfoter">
+    <footer class=" footer wapper-center">
+        <p>© Copyright 2023 Todos os direitos reservados.
+            Feito cuidadosamente por <a href="https://github.com/ArthurGourmet">Gourmet <span class="icon-github"></span></a> <a href="https://www.linkedin.com/in/gourmet-i-a9836220a/"><span class="icon-linkedin"></span></a></p>
+    </footer>
+    </div>
+
+    <div class="decorativa">
+
+    </div>
+    <script>
+        function desmarcarCheckbox() {
+            var checkbox = document.getElementById("menu");
+            checkbox.checked = false;
+        }
+        </script>
+    
+</body>
+</html>
