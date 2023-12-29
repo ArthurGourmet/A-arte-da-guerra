@@ -5,7 +5,7 @@
 font-family: 'Roboto', sans-serif; */
 :root{
     font-size: 62.5%;
-    --color-red-:#dc2424;
+    --color-red-:#ff6666;
     --color-white-:#fafcfb;
     --color-black-:#241c24;
     --paddins-:8rem 2rem;
@@ -76,6 +76,9 @@ h1,h2,h3{
     transform: scale(1.05);
     box-shadow: 0px 0px 10px var(--color-red-);
     outline: 2px solid;
+}
+.btn:focus{
+    transform: translateY(10px);
 }
 .btn-black:hover{
     box-shadow: 0px 0px 20px var(--color-white-);
